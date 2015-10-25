@@ -1,4 +1,4 @@
-nuli
-====
+#Doublequan Blog
 
-never give up
+###[View Live Doublequan Blog &rarr;](http://doublequan.github.io)
+
