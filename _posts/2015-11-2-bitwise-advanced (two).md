@@ -11,7 +11,7 @@ tags:
 author: 'Bill Quan'
 
 ---
-##Gray码
+## Gray码
 
 n=2的Gray（格雷码）遍历顺序如下：
 
