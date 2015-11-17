@@ -7,7 +7,6 @@ header-img: "img/post-bg-web.jpg"
 tags:
      - bit
      - 位操作
-     - 进阶
 author: 'Bill Quan'
 
 ---
