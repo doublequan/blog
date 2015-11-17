@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 'Advanced Bitwise Operation 位操作进阶问题 Subsets'
+title: 'Subsets问题 Bitwise Operation 位操作 '
 date: '2015-11-17'
 header-img: "img/post-bg-web.jpg"
 tags:

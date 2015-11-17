@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 'Advanced Bitwise Operation（2） 位操作进阶 (二) Gray码问题' 
+title: 'Gray码问题 Bitwise Operation 位操作 ' 
 date: '2015-11-2'
 header-img: "img/post-bg-web.jpg"
 tags:
