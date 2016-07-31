@@ -8,7 +8,6 @@ tags:
      - Docker
      - backup
 author: 'Bill Quan'
-
 ---
 
 
@@ -36,8 +35,7 @@ If you create a container with a `-v volume_name:/container/fs/path` docker wi
 ### Backup
 
 ```
---rm --volumes-from DATA -v $(pwd):/backup busybox tar cvf /backup/backup.tar /data
-
+docker run --rm --volumes-from DATA -v $(pwd):/backup busybox tar cvf /backup/backup.tar /data
 ```
 
 - --rm: remove the container when it exits
@@ -58,7 +56,7 @@ $ sudo docker run --rm --volumes-from DATA2 -v $(pwd):/backup busybox tar xvf /b
 data/
 data/sven.txt
 # compare to the original container
-$ sudo docker run --rm --volumes-from DATA -v `pwd`:/backup busybox ls /data
+$ sudo docker run --rm --volumes-from DATA -v $(pwd):/backup busybox ls /data
 sven.txt
 ```
 
